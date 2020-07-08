@@ -5,50 +5,106 @@
     <meta name="viewport" content="width=0, initial-scale=1.0">
     <title>my protfolio</title>
     <style>
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-span{
-    color: blue;
-}
-.ball{
-border: brown;
-margin: 20px;
-}
-.half-width{
-    border: blue;
-    padding-right: 80px;
-    width: 250px;
-    float: left;
-}
-.half-width img{
-    height: 220px;
-    width:200px;
-}
-a{
-    text-decoration: none;
-    background-color: brown;
-    padding: 5px 10px;
-    border-radius: 20px;
-}
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            color: crimson;
+        }
+        .nice{
+            color: grey;
+        }
+        .half-width{
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+            padding-left: 1%;
+        }
+        .half-width img{
+            width: 100%;
+
+        }
+        .link-button{
+            text-decoration: none;
+            background-image: linear-gradient(rgb(230, 16, 58),tomato);
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        section{
+            height: 500px;
+            padding-bottom: 150px;
+        }
+        .biography{
+            color: black;
+        }
+        .latest-work{
+            text-align: center;
+            color: black;
+        }
+        .half-flaot img{
+            width: 30%;
+            float: left;
+            margin-right: 20px;
+        }
+        .client{
+            text-align: center;
+            color: black;
+        }
+        a.bottom-link{
+            text-decoration: none;
+            background-image: linear-gradient(rgb(250, 0, 50),rgb(245, 2, 83));
+            padding: 40px 30px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        
+        }
     </style>
 </head>
 <body>
-    <section class="ball">
+    <section>
         <div class="half-width">
-    <h1>FORKAN</h1>
-   <h3><span>forkan </span> website</h3>
-   <p>i am web developer,now i am course programing hero.com website..i am web developer,now i am course programing hero.com websitei am web developer,now i am course programing hero.com website</p>
-   <a href="https://www.programming-hero.com/">follow me</a>
+            <h3>Hello i am</h3>
+    <h1>Jack smith </h1>
+   <p class="nice">you might show me,claimbing,jumping building and stoping train.but nobody pay me a time this work</p> 
+   <a class="link-button"  target="_blank"  href="https://www.programming-hero.com/">Hire Me</a>
    </div>
    <div class="half-width"> 
-       <img src="images/programming-hero.png" alt="">
+    <img src="project/peter.png" alt="">
    </div>
    </section>
    <section>
-       <div>
-           
+       <div class="half-width">
+           <img src="project/peter_dream.png" alt="">
+       </div>
+       <div class="half-width">
+           <h1 class="biography">Biography</h1>
+       </div>
+       <div class="half-width">
+           <p class="nice">loram ipsum is simply.dummy text of the printing industr.lorem ipsum has been the industry....loram ipsum is simply.dummy text of the printing industr.lorem ipsum has been the industry</p>
+           <a class="link-button" target="_blank" href="https://www.programming-hero.com/">Download cv</a>
        </div>
    </section>
-</body>
+   <section>
+          <h1 class="latest-work">MY Latest Work</h1>
+       <div class="half-flaot">
+       <img src="project/work-1.png" alt="">
+       </div>
+       <div class="half-flaot">
+       <img src="project/work-2.jpg" alt="">
+       </div>
+       <div class="half-flaot">
+       <img src="project/work-3.jpg" alt="">
+       </div>
+     </section>
+     <section>
+             <h1 class="client">What client are say</h1><br>
+             <h3 class="client">Programming-hero</h3>
+             <h5 class="client">Founder and CEO</h5><br>
+             <p class="client">lorem iqsam is simply dummy text of the printing and typing industry</p><br>
+             <a class="bottom-link" target="_blank" href="https://www.programming-hero.com/">programming-hero@.com</a>
+     </section>
+ </body>
 </html>
